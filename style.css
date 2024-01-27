@@ -83,3 +83,8 @@ input{
     color: red;
 }
 
+@media only screen and (max-width: 650px) {
+    .container {
+      grid-template-columns: subgrid; 
+    }
+  }
